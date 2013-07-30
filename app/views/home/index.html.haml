@@ -1,0 +1,8 @@
+.span12
+  #images
+    #my-zone
+      %h3 My Images
+      %form{action: upload_path, class: "dropzone#{' dz-started' if @assets.count > 0}", id: 'assets-dropzone'}
+
+:coffeescript
+  @images = #{@assets.to_json}

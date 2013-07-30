@@ -14,7 +14,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
 end
@@ -42,3 +42,6 @@ gem "jquery-rails"
 gem "bson_ext"
 gem "mongoid", ">= 2.0.0.beta.19"
 gem "rspec-rails", ">= 2.0.1", :group => [:development, :test]
+gem "cloudinary"
+gem 'carrierwave-mongoid'
+gem 'bootstrap-sass'
